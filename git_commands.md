@@ -1,0 +1,62 @@
+# Git Kommandon Lathund
+
+- **git init**: Initierar ett nytt git-repository.
+- **git clone <url>**: Klona (kopiera) ett repository från en given URL.
+- **git add <filnamn>**: Lägger till filer till stagingområdet.
+- **git commit -m "<meddelande>"**: Sparar dina ändringar i repot.
+- **git status**: Visar statusen för ändringar i ditt repository.
+- **git log**: Visar en logg över alla commits.
+- **git push <remote> <branch>**: Skickar dina ändringar till ett fjärrrepository.
+- **git pull <remote>**: Tar emot ändringar från ett fjärrrepository.
+- **git branch**: Visar en lista över alla lokala grenar.
+- **git checkout <branch>**: Byter till en specifik gren.
+- **git merge <branch>**: Sammanfogar en gren till den aktiva grenen.
+- **git remote add <name> <url>**: Lägger till ett fjärrrepository.
+- **git fetch <remote>**: Hämtar objekt och refs från ett annat repository.
+- **git diff**: Visar skillnader mellan arbetsförloppet och index.
+- **git reset**: Återställer aktuell HEAD till angivet tillstånd.
+- **git stash**: Sparar tillfälligt ändringar som du inte vill commita ännu.
+- **git stash pop**: Återställer de senast sparade ändringarna från stash.
+- **git stash list**: Visar en lista över alla stashade ändringar.
+- **git stash drop**: Tar bort den senaste stashade ändringen.
+- **git tag**: Lägger till ett tagg på den aktuella commiten.
+- **git revert**: <commit> - Skapar en ny commit som återställer.
+- **git revert <commit>**: Skapar en ny commit som återställer ändringarna från en specifik commit.
+- **git remote -v**: Visar en lista över alla fjärrrepositories.
+- **git remote remove <name>**: Tar bort en koppling till ett fjärrrepository.
+- **git clean -n**: Visar vilka filer som kommer att tas bort.
+- **git clean -f**: Tar bort alla oönskade filer.
+- **git bisect**: Används för att hitta den commit som introducerade en bugg.
+- **git show <commit>**: Visar information om en specifik commit.
+- **git cherry-pick <commit>**: Tar en commit från en annan gren och applicerar den på den aktuella grenen.
+- **git blame <file>**: Visar vem som gjorde vad i en specifik fil.
+- **git config --list**: Visar en lista över alla git-konfigurationer.
+- **git config --global user.name "<name>"**: Ställer in ett globalt användarnamn för git.
+- **git config --global user.email "<email>"**: Ställer in en global e-postadress för git.
+- **git shortlog**: Visar en sammanfattning av alla commits grupperade efter författare.
+- **git describe**: Visar den mest recenta taggen som är nådd från den aktuella commiten.
+- **git fsck**: Kontrollerar databasen och datastrukturen i ditt git-repository.
+- **git gc**: Rensar och optimerar ditt git-repository.
+- **git archive**: Skapar ett arkiv med filer från en specifik commit eller gren.
+- **git submodule add <repository> <path>**: Lägger till ett undermodul-repository på en specifik plats.
+- **git submodule init**: Initialiserar dina undermoduler.
+- **git submodule update**: Uppdaterar dina undermoduler.
+- **git reflog**: Visar en logg över referensändringar.
+- **git fetch --all**: Hämtar alla uppdateringar från fjärrrepository.
+- **git branch -d <branch>**: Tar bort en lokal gren.
+- **git branch -D <branch>**: Tvingar borttagning av en lokal gren.
+- **git push <remote> --delete <branch>**: Tar bort en gren från fjärrrepository.
+- **git reset --soft <commit>**: Återställer ditt index och arbetsförlopp till en specifik commit men behåller ändringarna.
+- **git reset --hard <commit>**: Återställer ditt index, arbetsförlopp och alla dina ändringar till en specifik commit.
+- **git ls-files**: Visar en lista över alla filer som är spårade av git.
+- **git rm <file>**: Tar bort en fil från ditt repository och ditt arbetsförlopp.
+- **git mv <old-name> <new-name>**: Byter namn på en fil och förbereder den för commit.
+- **git log --oneline**: Visar loggen med en rad per commit.
+- **git log --stat**: Visar loggen med statistik för varje commit.
+- **git log --graph**: Visar en ASCII-graf över ditt repository.
+- **git push --force**: Tvingar push till fjärrrepository. Använd med försiktighet.
+- **git pull --rebase**: Drar ner ändringar och applicerar dina ändringar ovanpå dem.
+- **git remote show <remote>**: Visar information om ett specifikt fjärrrepository.
+- **git remote prune <remote>**: Rensar upp gamla referenser för ett fjärrrepository.
+- **git remote rename <old-name> <new-name>**: Byter namn på en fjärrrepository.
+- **git fetch --prune**: Hämtar ändringar från fjärrrepository och rensar upp gamla referenser.
